@@ -4,7 +4,7 @@
     {
         int[] ints={64,25,12,22,11};
 
-        Sort3(ints);
+        Sort(ints);
         for (int i = 0; i <= ints.Length-1; i++)
         {
             Console.WriteLine(ints[i]);
@@ -52,7 +52,7 @@
 
     }
 
-    public static void Sort3(int[] arry)
+    public static void Sort4(int[] arry)
     {
         int length = arry.Length;
          for (int i = 0; i <= length-1; i++)
